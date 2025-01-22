@@ -466,6 +466,9 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* margin-top: 100%; */
+    /* position: fixed; */
+
 }
 
 .footer>h2{
@@ -475,20 +478,22 @@ html, body{
 }
 
 .footer .contact-no{
-    width: 40%;
+    width: 20%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid black; */
 }
 
 .footer .social-platforms{
-    width: 40%;
+    width: 20%;
     /* border: 2px solid black;  */
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 2%;
 }
 
 .footer .social-platforms a:hover{
     transform: scale(1.4);
-
 }

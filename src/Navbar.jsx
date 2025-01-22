@@ -16,9 +16,15 @@ function Navbar() {
         <Link to="/projects">Projects</Link>
         
         {/* Download Resume */}
-        <a href="/Priyansh Resume.pdf" download="Priyansh Jain.pdf">
+        {/* <a href="/Priyansh Resume.pdf" download="Priyansh Jain.pdf">
+          <button style={{ border: 'none', backgroundColor: 'white' }}>Resume 📄</button>
+        </a> */}
+
+        <a href="mailto:priyanshjain7067@gmail.com?subject=Can you please share your resume.">
           <button style={{ border: 'none', backgroundColor: 'white' }}>Resume 📄</button>
         </a>
+
+        
         <Link to="#">
           <h5>Contact <i className="fa-solid fa-arrow-right-long"></i></h5>
           <div className='green'></div>
